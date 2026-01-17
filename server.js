@@ -2,6 +2,7 @@ const express = require('express')
 const app = express()
 
 app.get('/' , (req,res) => {
+    res.send('This is my page')
     res.json({status: 200, message: 'Hello Shejin good mornining'})
 })
 
